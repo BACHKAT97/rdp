@@ -23,12 +23,12 @@ sudo apt -y install obs-studio
 sudo apt -y install firefox
 sudo apt -y install qbittorrent
 sudo apt install nload
-sudo adduser NAHID chrome-remote-desktop
+sudo adduser yacine chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
 read -p "Paste Here: " CRP
-su - NAHID -c """$CRP"""
+su - yacine -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword is: 1234 \n'
